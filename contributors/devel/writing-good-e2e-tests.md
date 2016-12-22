@@ -67,7 +67,7 @@ deleting pods in the system namespace at the same time as your test.
 If you do legitimately need to write a test like that, make sure to
 label it ["\[Serial\]"](e2e-tests.md#kinds_of_tests) so that it's easy
 to identify, and not run in parallel with any other tests.
-1. You should avoid doing things to the cluster that make it difficult
+2. You should avoid doing things to the cluster that make it difficult
 for other tests to reliably do what they're trying to do, at the same
 time.  For example, rebooting nodes, disconnecting network interfaces,
 or upgrading cluster software as part of your test is likely to
