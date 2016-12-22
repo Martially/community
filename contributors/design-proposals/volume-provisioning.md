@@ -3,7 +3,7 @@
 Real Kubernetes clusters have a variety of volumes which differ widely in
 size, iops performance, retention policy, and other characteristics.
 Administrators need a way to dynamically provision volumes of these different
-types to automatically meet user demand.
+types to automatically meet users demand.
 
 A new mechanism called 'storage classes' is proposed to provide this
 capability.
